@@ -1,0 +1,156 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+		
+body {
+	margin:0;
+	background-color: #edeef0	
+}
+				
+header.pad {
+	padding-left: 5px;	
+}
+
+header.textb {
+	border-bottom: 1px #2e5473 solid;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-right:-20px;
+	margin-left:-20px;
+	padding-left:20px;
+}
+
+header.webb {
+	position: fixed;
+	background-color: #507299 ;
+	padding:10px 0px 5px 15%;	
+	width:100%;
+	top: 0;	
+}
+		
+footer {
+	background-color: white ;
+	color:#507299;
+	padding:6px;
+	font-size:18px;
+	text-align: center;	
+	margin-top:10px;
+}
+
+footer.testimonials {
+	border-top: 1px #2e5473 solid;
+	margin-top: 10px;
+	padding-left:0;
+	padding-right:0;
+}
+
+.mainblok {
+	width: 1000px;	
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 50px;		
+}
+
+.menu {
+    float:left;
+    width: 180px;	
+    height: 2000px ;                         
+    padding: 10px 30px 30px 50px;		
+}
+
+div.cl {	
+	padding:10px;
+	margin-left:-20px;
+}
+
+div.cl:hover {
+	background-color: #e1e5eb; 	
+}
+		
+a { 
+	color:#507299;	
+}
+		
+a:link {
+	text-decoration:none;	
+}
+			
+.textblok {	
+	border-radius:15px;	
+	display: inline-block;
+	border: 1px #d0d0d0 solid;
+	margin-right: 25px;
+	background-color: white;
+	padding:20px;
+	text-align: justify;				
+	width: 420px;
+	line-height: 1.25em;	
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.textblok::selection {
+	background-color: #e1e5eb;
+	color: green;
+}
+
+.pos {
+	width:100%;
+	height:90%;
+}
+
+#sidebar {	
+	position:fixed;
+	top: 80px;
+	right: 340px;		
+}
+
+.rightblok {		
+	background-color: white;
+	padding:25px 10px 25px 10px;
+	border-radius:10px;			
+	width: 140px;
+	border: 1px #d0d0d0 solid;
+	line-height: 1.25em;
+	margin-bottom:25px;		
+}
+
+.backcol{
+	background-color: #edeef0;
+}
+
+@media screen and (max-width:800px) {
+	
+div.cl {
+	display: inline-block;	
+	margin-left: 5px;
+}
+
+div.cl:nth-child(4){
+	margin-left: 15px;
+}
+
+.menu {
+	width: 450px;
+	height: 20px;
+	margin-bottom: 50px;
+	margin-left: 15px;
+}
+
+.textblok {
+	margin-left: 25px;
+}
+
+.mainblok {
+	margin-bottom: 40px;
+}
+
+}		
+
+@media screen and (max-width:1500px) {
+	
+.rightblok {
+	display:none;	
+}
+
+}
